@@ -38,8 +38,9 @@ int ProcessLogin(string login)
 
 void pass_generate(int login, int N)
 {
-    int pass = login ^ 0x1234
-    cout << pass;
+    int pass;
+    pass = login ^ 0x1234;
+    cout << pass << endl;
 }
 
 int main()
